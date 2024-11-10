@@ -1,0 +1,120 @@
+/* Resetting some defaults */
+•⁠  ⁠{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #086e7e9b;
+    <img src="https:source.unsplash.com/900*900/?coding,apple" alt="laptop image" class="imgFluid"
+
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0be3ee8b;
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.h-navresp-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.h-navresp-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    padding: 2rem;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.hero h2 {
+    font-size: 2rem;
+}
+
+.hero-btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    background-color: #13c3da;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Features Section */
+.features {
+    padding: 2rem;
+    background: #fff;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 1rem;
+}
+
+.feature-box {
+    padding: 1rem;
+    margin: 0.5rem;
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .h-navresp-links {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: inline;
+    }
+
+    .feature-box {
+        margin: 1rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-btn {
+        font-size: 0.9rem;
+    }
+}
